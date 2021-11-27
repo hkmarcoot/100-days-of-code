@@ -1,0 +1,29 @@
+/* Put your css in here, and don't forget to link this to the .html file */
+html {
+  height: 100%;
+}
+
+body {
+  background-color: lightgray;
+  height: 100%;
+  width: 100%;
+}
+
+#face {
+  width: 800px;
+  height: 800px;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.eye {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 50%;
+  border-width: 5px;
+}

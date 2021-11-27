@@ -1,0 +1,19 @@
+body {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: lightblue; */
+  background-image: url("https://media.newyorker.com/photos/5d892780a9384400084af6ab/master/pass/Schmidt-90sworkday.jpg");
+  background-repeat: no-repeat;
+}
+
+img {
+  border: 5px solid lightgrey;
+}
+
+#joke-history {
+  font-size: 40px;
+}
