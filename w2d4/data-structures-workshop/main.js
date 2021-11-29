@@ -158,3 +158,79 @@ function removeUnhealthy(item) {
 
 let healthyInventory = inventory.filter(removeUnhealthy);
 console.log(healthyInventory);
+
+//Section 2 T1
+function removeUnhealthyTrolley(item) {
+    //for (let i = 0; i < trolley.length; i++){
+        for (let k = 0; k < healthyInventory.length; k++){
+            //console.log("checked once");
+            if(item.id === healthyInventory[k].id) {
+                return true;
+
+            }
+            //return item.id === healthyInventory[k].id;
+        }
+    //}
+}
+
+let healthyTrolley = trolley.filter(removeUnhealthyTrolley);
+console.log(healthyTrolley);
+
+//Section 2 T2
+function noRecallFromHealthyTrolley(item) {
+        for (let k = 0; k < healthyInventory.length; k++){
+            if(item.id === healthyInventory[k].id) {
+                if (healthyInventory[k].recalled === false){
+                    return true;
+                }
+            }
+        }
+}
+
+
+let noRecallTrolley = healthyTrolley.filter(noRecallFromHealthyTrolley);
+console.log(noRecallTrolley);
+
+//Section 2 T3
+let shoppingReceipt =[];
+function makeReceipt (){
+    for (let i = 0; i < noRecallTrolley.length; i++){
+        for (let k = 0; k < healthyInventory.length; k++){
+            if(noRecallTrolley[i].id === healthyInventory[k].id) {
+                let totalPrice = noRecallTrolley[i].quantity * healthyInventory[k].price;
+                let name = healthyInventory[k].name;
+                let quantity = noRecallTrolley[i].quantity;
+                shoppingReceipt.push({name:`${name}`, quantity:`${quantity}`, totalPrice:`${totalPrice}`});
+            }
+        }
+    }
+}
+
+
+makeReceipt();
+console.log(shoppingReceipt);
+
+//Section 2 T4
+    //Total Before Discount
+    let totalBfDiscount = 0;
+    for (let i = 0; i < shoppingReceipt.length; i++){
+        totalBfDiscount += parseInt(shoppingReceipt[i].totalPrice);
+    }
+    console.log(totalBfDiscount);
+
+    //Total Discount
+    let totalDiscount = 0;
+    for (let i = 0; i < shoppingReceipt.length; i++){
+        if( parseInt(shoppingReceipt[i].quantity) >= 3){
+            totalDiscount += parseInt(shoppingReceipt[i].totalPrice) * 0.25;
+        }
+    }
+    console.log(totalDiscount);
+
+    let pricePaid = totalBfDiscount - totalDiscount;
+    console.log(pricePaid);
+
+    //Bonus Task 
+    document.querySelector(".full-total").innerHTML = totalBfDiscount;
+    document.querySelector(".discount-total").innerHTML = totalDiscount;
+    document.querySelector(".price-paid").innerHTML = pricePaid;
