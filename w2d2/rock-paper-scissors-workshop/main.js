@@ -85,9 +85,10 @@ function displayResult(result, playerMove, computerMove) {
   } else if (result === -1) {
     resultText = "lose :(";
   }
-  alert(
-    `${username}, you played ${playerMove} and computer played ${computerMove}. You ${resultText}`
-  );
+  // alert(
+  //   `${username}, you played ${playerMove} and computer played ${computerMove}. You ${resultText}`
+  // );
+  document.querySelector("#result").innerHTML = "Result: " + resultText;
 }
 
 function updateScore(result) {
@@ -102,15 +103,76 @@ function updateScore(result) {
 }
 
 function displayScore() {
-  alert(
-    `${username}, you have played ${score.gamesPlayed} game(s) so far. You are at ${score.wins} wins, ${score.losses} losses and ${score.draws} draws`
-  );
+  // alert(
+  //   `${username}, you have played ${score.gamesPlayed} game(s) so far. You are at ${score.wins} wins, ${score.losses} losses and ${score.draws} draws`
+  // );
+  document.querySelector("#games-played").innerHTML = "Games played: " + score.gamesPlayed;
+  document.querySelector("#wins").innerHTML = "Wins: " + score.wins;
+  document.querySelector("#losses").innerHTML = "Losses: " + score.losses;
+  document.querySelector("#drew").innerHTML = "Drew: " + score.draws;
 }
 
+//Enter Your Name
+let input = document.querySelector("#name-input");
+let nameButton = document.querySelector("#name-button");
+let nameAlert1 = document.querySelector("#name-alert1");
+let nameAlert2 = document.querySelector("#name-alert2");
+let nameAlert3 = document.querySelector("#name-alert3");
+
+function updateName() {
+  let userName = input.value;
+  let userNameCheck = false;
+  let userNameFirstLetterCheck = false;
+  let userNameCapitalisedCheck = false;
+
+  nameAlert1.innerHTML = "";
+  nameAlert2.innerHTML = "";
+  nameAlert3.innerHTML = "";
+
+  if (userName.length > 10) {
+      nameAlert1.innerHTML = "The name length should be equal or less than 10 characters.";
+  } else {
+      //Here, true means that the checking is passed
+      userNameCheck = true;
+  }
+
+  //check the name is only start with letters, not numbers or symbols.
+  if ((userName.charAt(0) >='A' && userName.charAt(0) <= 'Z') ||
+      (userName.charAt(0) >='a' && userName.charAt(0) <= 'z')) {
+          //Here, true means that the checking is passed
+          userNameFirstLetterCheck = true;
+  } else {
+      nameAlert2.innerHTML = "The name should only start with letters, not numbers or symbols.";
+  }
+
+  //check the first letter of the name is capitalised
+  if ( userName.charAt(0) === userName.charAt(0).toLowerCase()) {
+      nameAlert3.innerHTML = "The first letter of the username should be capitalised.";
+  } else {
+      //Here, true means that the checking is passed
+      userNameCapitalisedCheck = true;
+  }
+
+  if (userNameCheck && userNameFirstLetterCheck && userNameCapitalisedCheck){
+      document.querySelector("#welcome-username").innerHTML = "Welcome, " + userName + "!";
+      input.style.display = "none";
+      nameButton.style.display = "none";
+  }
+}
+
+//Input name by pressing button in webpage
+nameButton.addEventListener("click", updateName);
+//Input name by pressing enter on keybroad
+input.addEventListener('keyup', (e) => {
+  if (e.keyCode === 13) {
+    console.log("Hi");
+    updateName();
+  }
+})
 
 
 // Before we start the game loop, get a player's username
-let username = prompt("What should we call you?");
+// let username = prompt("What should we call you?");
 
 //Task 1
 const buttonRock = document.querySelector("#rock-button");
@@ -171,6 +233,9 @@ function handleClickScissors() {
     // result is either 1 (player win), 0 (draw) or -1 (player loss)
     let result = getWinner(playerMove, computerMove);
 
+    // Display computer move
+    document.querySelector("#computer-move").innerHTML = "Computer move: " + computerMove;
+
     // Display the result of this round to the user
     displayResult(result, playerMove, computerMove);
 
@@ -181,12 +246,12 @@ function handleClickScissors() {
     // Display score details to player
     displayScore();
 
-    // Ask if the player wants to keep playing
-    let keepPlaying = confirm(`Do you want to keep playing ${username}?`);
-    if (!keepPlaying) {
-      // If false, break the while loop so we stop the game
+    // // Ask if the player wants to keep playing
+    // let keepPlaying = confirm(`Do you want to keep playing ${username}?`);
+    // if (!keepPlaying) {
+    //   // If false, break the while loop so we stop the game
       
-    } 
+    // } 
   
   };
 
@@ -208,12 +273,12 @@ function handleClickScissors() {
       // Display score details to player
       displayScore();
   
-      // Ask if the player wants to keep playing
-      let keepPlaying = confirm(`Do you want to keep playing ${username}?`);
-      if (!keepPlaying) {
-        // If false, break the while loop so we stop the game
+      // // Ask if the player wants to keep playing
+      // let keepPlaying = confirm(`Do you want to keep playing ${username}?`);
+      // if (!keepPlaying) {
+      //   // If false, break the while loop so we stop the game
         
-      } 
+      // } 
     
     };
 
@@ -236,10 +301,10 @@ function handleClickScissors() {
         displayScore();
     
         // Ask if the player wants to keep playing
-        let keepPlaying = confirm(`Do you want to keep playing ${username}?`);
-        if (!keepPlaying) {
-          // If false, break the while loop so we stop the game
+        // let keepPlaying = confirm(`Do you want to keep playing ${username}?`);
+        // if (!keepPlaying) {
+        //   // If false, break the while loop so we stop the game
           
-        } 
+        // } 
       
       };
