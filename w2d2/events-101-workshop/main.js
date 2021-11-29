@@ -1,5 +1,6 @@
 const button = document.querySelector("#click-me");
 const flowerButton = document.querySelector(".task-2");
+const checkBox = document.querySelector("#check-box");
 
 //Task 2: Change the title with emojis
 function changeTitle () {
@@ -25,7 +26,9 @@ flowerButton.addEventListener("click", changeTitle);
 //when you type in the input field, 
 //you should see your text show up on the page.
 document.querySelector("#title-changer").addEventListener("keyup", (e) => {
-  console.log(e.target.value);
+  //console.log(e.target.value);
+  document.querySelector("h1").innerHTML = e.target.value;
+
 });
 
 //Task 4: Listen to the mouseenter event on the img element 
@@ -41,3 +44,8 @@ document.querySelector("img").addEventListener("mouseenter", () => {
 document.querySelector("img").addEventListener("mouseleave", () => {
   document.querySelector("h1").style.color = "initial";
 });
+
+//Task 5:
+checkBox.addEventListener('change', () => {
+  document.querySelector("h1").classList.toggle('funky');
+})
