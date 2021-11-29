@@ -21,27 +21,37 @@ let dummy = document.querySelector(".quote");
 dummy.innerText = `Hello World`;
 
 //Task 3
-let dummy2 = document.querySelector("h1");
+let h1 = document.querySelector("h1");
+h1.style.textDecoration = "underline";
 
 //Task 4
-let dummy3 = document.querySelector("#tips-list");
-let newListItem = document.createElement("div");
-newListItem.innerText = "current tip";
+let ul = document.querySelector("#tips-list");
+
 for (let i = 0; i < extraTips.length; i++){
-    console.log(extraTips[i]);
 
-    const newListItem = document.createElement("li");
-    newListItem.append(extraTips[i]);
-    console.log(newListItem);
-    dummy3.appendChild(newListItem);
-    //newListItem.innerText = "current tip";
-    // console.log("Testing");
-    // dummy3.appendChild(newListItem);
-
-    // const list = document.querySelector('#tips-list');
-    // list.appendChild(newListItem);
+    let li = document.createElement("li");
+    li.appendChild(document.createTextNode(extraTips[i]));
+    ul.appendChild(li);
 
 }
 
 //Task 5
-//document.title. = 
+//document.title = "Hello World this is DOM 102";
+
+//task 6
+function changeTitle() {
+  document.title = "Hello World this is DOM 102";
+}
+
+document.querySelector("#click-me").addEventListener("click", changeTitle);
+
+//Task 7
+let newInput = document.querySelector("#new-input");
+let newButton = document.querySelector("#new-button");
+
+function changeh1 () {
+  let newInputValue = newInput.value;
+  h1.innerHTML = newInputValue;
+}
+
+newButton.addEventListener("click", changeh1);
