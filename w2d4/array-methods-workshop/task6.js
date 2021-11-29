@@ -16,3 +16,59 @@ const students = [
   "Luna Lovegood",
   "Gregory Goyle",
 ];
+
+//6a
+//they are in ASCENDING order
+broomCupboard.sort(function(a,b){return a - b});
+
+//6b
+//they are in DESCENDING order of their shelves
+function compare (a, b) {
+  if (a.shelf > b.shelf) {
+    return -1;
+  }
+  if (a.shelf < b.shelf) {
+    return 1;
+  }
+  return 0;
+}
+
+potions.sort(compare);
+
+//6c
+//Sort the names in the array 
+//in alphebetical order according to their last name.
+
+let fullNameList = [];
+
+function createObjectInArray (names) {
+  for(let i = 0; i < names.length; i++){
+        let lastName = names[i].split(" ")[1];
+        let firstName = names[i].split(" ")[0];
+        fullNameList.push({First_Name: `${firstName}`, Last_Name: `${lastName}`});
+  }
+}
+
+function compareName(a, b){
+  if (a.Last_Name < b.Last_Name) {
+    return -1;
+  }
+  if (a.Last_Name > b.Last_Name) {
+    return 1;
+  }
+  return 0;
+}
+
+function getFullName(item) {
+  return [item.First_Name, item.Last_Name].join(" ");
+}
+
+createObjectInArray(students);
+fullNameList.sort(compareName);
+fullNameList = fullNameList.map(getFullName);
+
+console.log(fullNameList);
+
+//students.sort(sortLastName);
+
+
