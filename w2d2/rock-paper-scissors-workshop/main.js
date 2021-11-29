@@ -263,6 +263,9 @@ function handleClickScissors() {
       // result is either 1 (player win), 0 (draw) or -1 (player loss)
       let result = getWinner(playerMove, computerMove);
   
+      // Display computer move
+      document.querySelector("#computer-move").innerHTML = "Computer move: " + computerMove;
+
       // Display the result of this round to the user
       displayResult(result, playerMove, computerMove);
   
@@ -290,6 +293,9 @@ function handleClickScissors() {
         // result is either 1 (player win), 0 (draw) or -1 (player loss)
         let result = getWinner(playerMove, computerMove);
     
+        // Display computer move
+        document.querySelector("#computer-move").innerHTML = "Computer move: " + computerMove;
+
         // Display the result of this round to the user
         displayResult(result, playerMove, computerMove);
     
