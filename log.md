@@ -109,3 +109,69 @@ Finish week 2 recap exercise from the School Of Code, which includes a mini To-D
 
 Revisit all the topics in last week and finish all the remaining workshop Tasks. DOM, Event, Rock-Paper-Scissors in webpage, array methods, data structures.
 2:24 AM · Nov 29, 2021·Twitter Web App
+
+Here is the link for rock-paper-scissors: …https://rock-paper-scissors-workshop-soc.netlify.app
+2:25 AM · Nov 29, 2021·Twitter Web App
+
+### Day 15 | #100DaysOfCode
+
+Learn about user stories. Tried to make a persona in hubspot. Apply Design Thinking Process into the creating an online application practice.
+8:45 AM · Nov 30, 2021·Twitter Web App
+
+### Day 16 | #100DaysOfCode
+
+Finished eight 8 kyu training in Codewars. Learn basic concept about UX. Finished Grid Garden. Try to adjust the appearance of a webpage by changing CSS variables.
+8:39 AM · Dec 1, 2021·Twitter Web App
+
+### Day 17 | #100DaysOfCode
+
+First time using Figma to design mobile webpages. Try to adjust the appearance of zengarden by changing the content of CSS file.
+8:54 AM · Dec 2, 2021·Twitter Web App
+
+### Day 18 | #100DaysOfCode
+
+Clone the Netflix landing page using basic CSS elements such as .container, make the nav bar by inserting float left & right, and adjust the padding using padding-top. Use placeholder images for testing.
+8:57 AM · Dec 3, 2021·Twitter Web App
+
+### Day 19 | #100DaysOfCode
+
+Collaborated with @theSchoolOfCode group-mate in the Hackathon, and made a webpage about food recipe that fetched data from API.
+11:29 AM · Dec 4, 2021·Twitter Web App
+
+Here is the link:
+…https://food-recipe-soc-hackathon-03-12-21.netlify.app
+11:30 AM · Dec 4, 2021·Twitter Web App
+
+### Day 20 | #100DaysOfCode
+
+Revisit week 3 learning and tidy up all the links and materials that were given in the course. Day 17 was loaded with lots of links in slack and needed to have a quick summary.
+1:44 AM · Dec 6, 2021·Twitter Web App
+
+### Day 21 | #100DaysOfCode
+
+Make a web design in Figma for my personal website by building Persona, User story, Wireframe and High-fidelity design. Finish w3school HTML, CSS, JS quiz.
+10:56 AM · Dec 6, 2021·Twitter Web App
+
+### Day 22 | #100DaysOfCode
+
+Start learning node.js and npm. Install chalk using npm and change the colour of texts in the terminal. Print array by creating functions, put codes in separate js file and import them to index.js.
+8:49 AM · Dec 7, 2021·Twitter Web App
+
+### Day 23 | #100DaysOfCode
+
+Use express with node.js. Learn handling the requests and getting the server to listen to requests. Run a book search server in my PC, which find books by ID.
+8:51 AM · Dec 8, 2021·Twitter Web App
+
+### Day 24 | #100DaysOfCode
+
+Fine tune the codes in yesterday by putting all the functions in a separate .js file and keeping all the requests in the original file. Learn about CRUD and REST. Try to use Get, Post, Put, Patch, Delete.
+8:50 AM · Dec 9, 2021·Twitter Web App
+
+### Day 25 | #100DaysOfCode
+
+Learn to use express middleware, which is like delivering cargos on the production line. It would go through the app.use, then sorted to different sub-production line according to REST.
+8:57 AM · Dec 10, 2021·Twitter Web App
+
+### Day 26 | #100DaysOfCode
+
+Build a food data API that runs on my local PC in SOC Hackathon. Can Get, Post, Put and Delete. It also has middleware and is able to using a query to search data by title or ingredients. Later, I connect it to a pre-built front end.
