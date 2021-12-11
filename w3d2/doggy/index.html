@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      :root {
+        --x: 100px;
+        --y: 100px;
+      }
+
+      #dog {
+        width: 200px;
+        top: var(--y);
+        left: var(--x);
+        transform: translate(-50%, -50%);
+        transition: all 0.3s;
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="dog" src="dog.png" />
+
+    <script>
+      const root = document.documentElement;
+      root.addEventListener("keydown", function(event) {
+        let yValue = getComputedStyle(root).getPropertyValue("--y");
+        yValue = Number(yValue.slice(0, -2));
+        let xValue = getComputedStyle(root).getPropertyValue("--x");
+        xValue = Number(xValue.slice(0, -2));
+        const speed = 100;
+        switch (event.key) {
+          case "ArrowDown":
+            root.style.setProperty("--y", yValue + speed + "px");
+            break;
+          case "ArrowUp":
+            root.style.setProperty("--y", yValue - speed + "px");
+            break;
+          case "ArrowRight":
+            root.style.setProperty("--x", xValue + speed + "px");
+            break;
+          case "ArrowLeft":
+            root.style.setProperty("--x", xValue - speed + "px");
+            break;
+        }
+      })
+
+    </script>
+    
+  </body>
+</html>
