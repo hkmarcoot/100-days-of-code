@@ -1,0 +1,29 @@
+{
+  "name": "w5d4_config_management",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --setupFiles dotenv/config",
+    "start": "node -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/W5D4_config_management.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/W5D4_config_management/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/W5D4_config_management#readme",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "pg": "^8.7.1"
+  }
+}
