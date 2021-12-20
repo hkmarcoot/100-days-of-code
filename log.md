@@ -175,3 +175,49 @@ Learn to use express middleware, which is like delivering cargos on the producti
 ### Day 26 | #100DaysOfCode
 
 Build a food data API that runs on my local PC in SOC Hackathon. Can Get, Post, Put and Delete. It also has middleware and is able to using a query to search data by title or ingredients. Later, I connect it to a pre-built front end.
+6:54 PM · Dec 11, 2021·Twitter Web App
+
+### Day 27 | #100DaysOfCode
+
+Create a REST API using the user data given by SOC. It is fully RESTful with all CRUD routes. Make an ID generate function and use it in the create new user function.
+2:00 PM · Dec 12, 2021·Twitter Web App
+
+### Day 28 | #100DaysOfCode
+
+Revisit day 16 about CSS. Learn to move the doggy in the browser, and blur a picture by controlling the handler.
+10:43 AM · Dec 13, 2021·Twitter Web App
+
+### Day 29 | #100DaysOfCode
+
+Learn to use SQL Crud Operations on db-fiddle. INSERT INTO, SELECT, UPDATE...SET, DELETE.
+8:53 AM · Dec 14, 2021·Twitter Web App
+
+### Day 30 | #100DaysOfCode
+
+Learn to use inner join, left join, right join and full join. Find the murder using the new SQL skills in SQL Murder Mystery.
+8:53 AM · Dec 15, 2021·Twitter Web App
+
+### Day 31 | #100DaysOfCode
+
+Use Heroku cloud service to setup our database, and learn to link it to our express coding. Adjust the regular express coding to be our workable version.
+8:50 AM · Dec 16, 2021·Twitter Web App
+
+### Day 32 | #100DaysOfCode
+
+Learn about 12-factor app, which is a guideline for building software-as-a-service app that ensure can scale-up, minimise divergence, deployment on cloud platforms, have a clean contract and use declarative formats.
+8:55 AM · Dec 17, 2021·Twitter Web App
+
+### Day 33 | #100DaysOfCode
+
+Create Heroku PostgresSQL database and upload the data. Link the database with .env so that it is hiding the credentials from public. Make my local pc to serve as an api, tested by Postman, and it worked!
+6:37 PM · Dec 18, 2021·Twitter Web App
+
+### Day 34 | #100DaysOfCode
+
+Make a simple front end that can fetch request handled by my API for yesterday's project.
+7:42 PM · Dec 19, 2021·Twitter Web App
+
+### Day 35 | #100DaysOfCode
+
+Recap what I did this week. Make a Cat-alogue API and connect it with pre-built front end. Again use Heroku for cloud database and secure the credentials by dotenv.
+10:47 AM · Dec 20, 2021·Twitter Web App
