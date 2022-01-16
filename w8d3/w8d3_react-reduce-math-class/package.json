@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.4.7"
+  },
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --verbose",
+    "test1": "npm t -- add\\\\.test",
+    "test2": "npm t -- add-if-two",
+    "test3": "npm t -- add-with",
+    "test4": "npm t -- create-object",
+    "test5": "npm t -- create-tally",
+    "test6": "npm t -- get-min-and"
+  },
+  "type": "module"
+}

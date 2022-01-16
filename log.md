@@ -221,3 +221,138 @@ Make a simple front end that can fetch request handled by my API for yesterday's
 
 Recap what I did this week. Make a Cat-alogue API and connect it with pre-built front end. Again use Heroku for cloud database and secure the credentials by dotenv.
 10:47 AM · Dec 20, 2021·Twitter Web App
+
+### Day 36 | #100DaysOfCode
+
+Use try and catch to test errors in the code rather than using console.log . Learn about Jest and read the common matchers.
+8:59 AM · Dec 21, 2021·Twitter Web App
+
+### Day 37 | #100DaysOfCode
+
+Continue with unit testing using Jest. Write some tests for letter score, word scores and bonus score for a player uses all seven tiles.
+9:00 AM · Dec 22, 2021·Twitter Web App
+
+### Day 38 | #100DaysOfCode
+
+Use supertest to test the endpoints of my application. Make a codewars game by myself using Jest.
+8:56 AM · Dec 23, 2021·Twitter Web App
+
+### Day 39 | #100DaysOfCode
+
+Learn about cypress, which is used in End to End Tests. More in deep knowledge in configuring prettier and set up a prettier file to unite the code format of a project. Try codewars made by other bootcampers.
+5:58 PM · Dec 24, 2021·Twitter Web App
+
+### Day 40 | #100DaysOfCode
+
+Finish the Basic HTML section in Responsive Web Design from Freecodecamp. Watching Build a Recipes Website in YouTube, which is also hosted by Freecodecamp.
+4:24 PM · Dec 25, 2021·Twitter Web App
+
+### Day 41
+
+I took a break yesterday (25th) in the 100 Days Of Code Challenge. Merry X’mas everyone!
+5:49 PM · Dec 26, 2021·Twitter for iPhone
+
+### Day 42 | #100DaysOfCode
+
+Doing the Basic CSS in Responsive Web Design from Freecodecamp, and watching the Build a Recipes Website in YouTube from Freecodecamp.
+6:29 PM · Dec 27, 2021·Twitter Web App
+
+### Day 43 | #100DaysOfCode
+
+Finish Basic CSS and doing Applied Visual Design in Responsive Web Design from Freecodecamp.
+6:28 PM · Dec 28, 2021·Twitter Web App
+
+### Day 44 | #100DaysOfCode
+
+Finish Applied Visual Design and doing Applied Accessibility in Responsive Web Design from Freecodecamp.
+7:57 PM · Dec 29, 2021·Twitter Web App
+
+### Day 45 | #100DaysOfCode
+
+Finish Applied Accessibility, Responsive Web Design Principles, CSS Flexbox and CSS Grid in Responsive Web Design from Freecodecamp.
+6:25 PM · Dec 30, 2021·Twitter Web App
+
+### Day 46 | #100DaysOfCode
+
+Build a survey form in Responsive Web Design Project from freecodecamp.
+5:04 PM · Dec 31, 2021·Twitter Web App
+
+### Day 47
+
+Take a break today (31st) from 100 days of code challenge. Happy New Year : )
+5:09 PM · Dec 31, 2021·Twitter Web App
+
+### Day 48 | #100DaysOfCode
+
+Finish building Technical Documentation Page, Product Landing Page, Personal Portfolio Webpage, and completed Responsive Web Design Certificate in freecodecamp.
+12:23 AM · Jan 2, 2022·Twitter Web App
+
+### Day 49 | #100DaysOfCode
+
+Doing Responsive Personal Portfolio Website by following the video from Bedimcode in YouTube.
+7:32 PM · Jan 3, 2022·Twitter Web App
+
+### Day 50 | #100DaysOfCode
+
+Finish the home section of Responsive Personal Portfolio Website. 30% done in React in Front End Development Libraries from freecodecamp.
+12:10 AM · Jan 4, 2022·Twitter Web App
+
+### Day 51 | #100DaysOfCode
+
+Learn about React and JSX. Get to know props, children and conditional rendering. Use babel to transpile the contents of our tag to raw JavaScript.
+8:11 AM · Jan 5, 2022·Twitter Web App
+
+### Day 52 | #100DaysOfCode
+
+Learn to use React useState. Make a random name generator, and a typeface display with custom input.
+8:55 AM · Jan 6, 2022·Twitter Web App
+
+### Day 53 | #100DaysOfCode
+
+Learn immutable updates to objects and arrays in React using spread operator. Use keys to help React differentiate and distinguish elements from each other, optimising its performance when diffing between the virtual and real DOM.
+8:55 AM · Jan 7, 2022·Twitter Web App
+
+### Day 54 | #100DaysOfCode
+
+Try to build to-do app in React with what I learned this week: JSX, State and props (React hook), immutability (spread operator), and .map.
+6:04 PM · Jan 8, 2022·Twitter Web App
+
+### Day 55
+
+Take a break today (pre-celebrate my birthday).
+7:19 PM · Jan 9, 2022·Twitter Web App
+
+### Day 56 | #100DaysOfCode
+
+Create a blog app with components that display posts and comments and allow users to add new comments, which is very similar with to-do app.
+10:28 AM · Jan 10, 2022·Twitter Web App
+
+### Day 57 | #100DaysOfCode
+
+Learn about React side effect, and use useEffect skills to make a Pokemon generator. I do it by fetching a Pokemon from api within a useEffect.
+8:50 AM · Jan 11, 2022·Twitter Web App
+
+### Day 58 | #100DaysOfCode
+
+Know what is agile, how to merge in Github and deploy in Netlify. Did a reading-list app similar with to-do app, which can search book name and its cover photo.
+8:52 AM · Jan 12, 2022·Twitter Web App
+
+### Day 59 | #100DaysOfCode
+
+Learn useReducer hook in React, and .reduce method in array. Make a personality-quiz app by practicing useReducer hook.
+8:56 AM · Jan 13, 2022·Twitter Web App
+
+### Day 60 | #100DaysOfCode
+
+Learn to use React testing library, fireEvent and React Router. Build a web app with multiple pages.
+8:57 AM · Jan 14, 2022·Twitter Web App
+
+### Day 61 | #100DaysOfCode
+
+Build a movie-search app that shows movie info with search history record using omdbapi, which is evolved from to-do app. Use useState to save data and .env to save api key.
+4:23 PM · Jan 15, 2022·Twitter Web App
+
+### Day 62 | #100DaysOfCode
+
+Recap what I did in week 5, 6, 7, 8 since there will be project week in the coming week.
+6:23 PM · Jan 16, 2022·Twitter Web App

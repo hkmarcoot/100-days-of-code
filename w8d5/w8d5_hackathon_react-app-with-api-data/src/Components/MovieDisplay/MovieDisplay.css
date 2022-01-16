@@ -1,0 +1,45 @@
+#current-movie {
+  display: grid;
+  place-items: center;
+  width: 40%;
+  position: relative;
+  border: 1px solid #333;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+#current-movie div {
+  margin: 2rem 0;
+}
+
+.movie-header {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.movie-title {
+  margin-bottom: 1rem;
+}
+
+.movie-year {
+  margin-bottom: 1rem;
+}
+
+.movie-info {
+  width: 25%;
+  position: absolute;
+  text-align: left;
+  right: 7.5%;
+  bottom: 10%;
+}
+
+.movie-poster {
+  margin-bottom: 1rem;
+}
+
+#ratings {
+  margin: 2rem 0;
+}

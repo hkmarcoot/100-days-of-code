@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      const rootElement = document.querySelector("#root");
+
+      function handleClick(e) {
+        alert("You clicked me!");
+      }
+
+      function Button(props) {
+        // return a button with some styles applied
+        return <button style={{color: "red", 
+                                backgroundColor: "lightblue", 
+                                padding: "10px",
+                                fontFamily: "Arial"
+                              }} 
+                
+                onClick={props.onClick}>{props.text}</button>
+      }
+
+      ReactDOM.render(
+        <Button onClick={handleClick} text="Click Me!" />,
+        rootElement
+      );
+    </script>
+  </body>
+</html>

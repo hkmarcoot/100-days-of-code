@@ -1,0 +1,6 @@
+#main {
+  display: flex;
+  justify-content: center;
+  background-color: hsla(192, 97%, 54%, 0.6);
+  border-radius: 20px;
+}

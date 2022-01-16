@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}

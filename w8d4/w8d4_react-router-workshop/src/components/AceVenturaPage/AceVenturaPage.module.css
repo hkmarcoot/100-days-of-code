@@ -1,0 +1,15 @@
+.main {
+  min-height: 100vh;
+  background-position: contain;
+  background-repeat: no-repeat;
+}
+.heading {
+  padding-left: 20vw;
+  color: white;
+}
+
+.speech {
+  width: 100px;
+  font-weight: bold;
+  margin: 18em 0 0 6em;
+}

@@ -1,0 +1,52 @@
+.beetrootContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.eye {
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  top: 30%;
+  transform: translateX(var(--position));
+  animation: vibrate-2 0.3s linear infinite both;
+}
+.mouth {
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  top: 60%;
+  transform: translateX(-50%);
+  animation: speak 0.3s linear infinite both;
+  animation-direction: alternate;
+}
+
+@keyframes speak {
+  0% {
+    transform: translateX(-50%) scaleY(1.5);
+  }
+  100% {
+    transform: translateX(-50%) scaleY(0.5);
+  }
+}
+
+@keyframes vibrate-2 {
+  0% {
+    transform: translate(var(--position), 0);
+  }
+  20% {
+    transform: translate(calc(var(--position) + 2px), -2px);
+  }
+  40% {
+    transform: translate(calc(var(--position) + 2px), 2px);
+  }
+  60% {
+    transform: translate(calc(var(--position) - 2px), 2px);
+  }
+  80% {
+    transform: translate(calc(var(--position) - 2px), -2px);
+  }
+  100% {
+    transform: translate(var(--position), 0);
+  }
+}

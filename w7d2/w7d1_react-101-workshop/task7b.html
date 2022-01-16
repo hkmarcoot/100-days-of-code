@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      const rootElement = document.querySelector("#root");
+
+      function Border(props) {
+        // render a div with some funky border styles and the children inside
+        return <div style={ { border: '2px solid red' } } >{props.children}</div>
+      }
+
+      function Title(props) {
+        // render a title
+        return <h1>{props.text}</h1>
+      }
+
+      ReactDOM.render(
+        [<Border>
+          <Title text="React is cool." />
+        </Border>],
+        rootElement
+      );
+    </script>
+  </body>
+</html>
