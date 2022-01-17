@@ -1,0 +1,46 @@
+MVP:
+- create a list of bootcamp topics with useful links and summary and get a full list back 
+
+Components:
+Welcome page (with setTimeout())
+Form to create a list item / Edit a day
+A List
+
+-- Welcome Page ??
+
+List
+components:
+Header
+Weeks category
+Days list
+  isComleted - option
+  edit - option
+    delete - option
+//* editButton
+submitButton
+
+behaviour:
+Fetch the list and show it
+Be able to switch to the form page
+
+state:
+a compleation boolean state
+
+Form / Edit a day 
+components:
+//* editButton
+Card (Inputs)
+  Topic
+  Language
+  Links
+  Summary
+
+behaviour:
+take in all inputs
+store them in a state as an object
+populate the object into a DB table
+
+state:
+a card item object
+
+
