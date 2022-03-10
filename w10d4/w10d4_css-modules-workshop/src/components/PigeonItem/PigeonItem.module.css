@@ -1,0 +1,14 @@
+.container {
+  width: 450px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-color: #77bb94;
+  box-shadow: inset 0px 0px 7px 1px #ef8914;
+}
+
+.container > img {
+  height: 100px;
+}

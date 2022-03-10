@@ -1,0 +1,16 @@
+        MVP
+        |
+npx create-nextApp@latest
+           |
+           Get the API Setup
+                |
+                Components
+                    |
+                    Call the API to the Home Page
+                    |
+                    Call the API to Another Page
+                    behaviour: should create a new page and call the API within the page.
+        Non MVP
+        | 
+        Add Auth0
+

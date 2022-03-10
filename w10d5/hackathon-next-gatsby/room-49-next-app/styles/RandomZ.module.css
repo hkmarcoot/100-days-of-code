@@ -1,0 +1,20 @@
+.container {
+  background-color: aqua;
+  padding: 0%;
+  max-width: 100%;
+  justify-content: center;
+}
+
+/* .Habitat p {
+    padding: 1.5em;
+    margin: 2em;
+    border: 3px;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  } */

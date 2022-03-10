@@ -1,0 +1,28 @@
+{
+  "name": "pull_request_excercise",
+  "version": "1.0.0",
+  "description": "Some codewars katas to practice raising and reviewing PR requests",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test1": "npm test -- Kata1*/",
+    "test2": "npm test -- Kata2*/",
+    "test3": "npm test -- Kata3*/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/pull_request_excercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/pull_request_excercise/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/pull_request_excercise#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.4.7"
+  }
+}
