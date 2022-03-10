@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ace0f433.css",
+    "main.js": "/static/js/main.d4ff4a75.js",
+    "static/media/soc-logo.svg": "/static/media/soc-logo.637e7093ecbabad3103a35e88e0f9bea.svg",
+    "index.html": "/index.html",
+    "main.ace0f433.css.map": "/static/css/main.ace0f433.css.map",
+    "main.d4ff4a75.js.map": "/static/js/main.d4ff4a75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ace0f433.css",
+    "static/js/main.d4ff4a75.js"
+  ]
+}

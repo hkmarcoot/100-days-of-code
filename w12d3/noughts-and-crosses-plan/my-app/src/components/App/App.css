@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  text-align: center;
+  margin: auto;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  height: 120px;
+  width: 120px;
+  font-size: 50px;
+  background-color: whitesmoke;
+}
