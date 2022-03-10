@@ -1,0 +1,39 @@
+.posts {
+	font-family: "Manrope", sans-serif;
+	/* width: 80%;
+	min-height: 300px; */
+	/* margin: 0 auto; */
+	align-content: space-around;
+	align-self: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	row-gap: 20px;
+	column-gap: 20px;
+	padding: 0 30px 30px 30px;
+	
+	word-wrap: break-word;
+	
+	
+	
+}
+
+/* .extra {
+	width: 100%;
+} */
+
+.add-btn {
+	padding: 1em 1.4em;
+	font-weight: bold;
+	border: 0.5px solid gray;
+	border-radius: 5px;
+	cursor: pointer;
+
+	background: white;
+	transition: 0.3s;
+}
+
+.add-btn:hover {
+	background: black;
+	color: white;
+}

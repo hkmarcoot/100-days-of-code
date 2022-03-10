@@ -1,0 +1,70 @@
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--color-five);
+  height: 100vh;
+  /* padding: 10%; */
+  text-align: center;
+
+  overflow: auto;
+}
+
+/* #sidebar {
+	overflow: auto;
+    height: auto;
+    /* padding: .5rem; */
+    /* -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none; */
+/* } */ 
+
+/* 
+.link-week {
+	font-family: var(--font-style-1);
+	font-weight: bold;
+	font-size: calc(0.6vw + 0.5em);
+	color: black;
+	text-decoration: none;
+}
+
+.link-week:hover {
+	font-weight: bolder;
+	color: var(--color-one);
+	font-size: calc(0.7vw + 0.5em);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.link-week::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3px;
+	background: gray;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 250ms ease-in-out;
+}
+
+.link-week:hover::after {
+	transform: scaleX(1);
+}
+
+.link-active {
+	position: relative;
+	color: black;
+	text-decoration: none;
+
+	font-weight: bold;
+}
+
+.link-active::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3px;
+	background: gray;
+	transform: scaleX(1);
+} */

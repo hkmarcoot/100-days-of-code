@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap");
+
+h2 {
+	font-family: var(--font-style-1);
+	font-size: calc(1.8vw + 1em);
+	padding: 3% 0 0 3%;
+	font-weight: bolder;
+	color: var(--color-one);
+	flex-basis: auto;
+	letter-spacing: 5px;
+}
+
+.topic-title {
+	font-family: var(--font-style-1);
+	font-size: calc(1.8vw + 1em);
+	padding: 0 0 3% 3%;
+	font-weight: bolder;
+	color: var(--color-one);
+	flex-basis: auto;
+	letter-spacing: 5px;
+	width: 300px;
+	white-space: nowrap;
+}

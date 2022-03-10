@@ -1,0 +1,26 @@
+.create-button-div {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-right: 15%;
+}
+
+.create-button {
+	font-family: var(--font-style-1);
+	font-size: calc(0.8vw + 0.8em);
+	font-weight: bolder;
+	color: var(--text-primary);
+	border: none;
+	background-color: var(--color-three);
+	font-family: var(--font-style-1);
+	font-size: calc(0.8vw + 0.8em);
+	border-radius: 45px;
+	padding: .3em 1em;
+	white-space: nowrap;
+	text-align: center;
+	transition: all ease-in-out 200ms;
+}
+
+.create-button:hover {
+	cursor: pointer;
+	background-color: var(--color-three-hover);
+}
