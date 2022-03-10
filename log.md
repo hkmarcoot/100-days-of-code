@@ -356,3 +356,283 @@ Build a movie-search app that shows movie info with search history record using 
 
 Recap what I did in week 5, 6, 7, 8 since there will be project week in the coming week.
 6:23 PM · Jan 16, 2022·Twitter Web App
+
+### Day 63 | #100DaysOfCode
+
+Recap what I did in week 1, 2, 3, 4 since there will be project week in the coming week.
+8:55 AM · Jan 17, 2022·Twitter Web App
+
+### Day 64 | #100DaysOfCode
+
+Install React app and Express in the same repo as client and api, and try to make a full stack application. Make persona, user stories and wireframe and plan what we will do in this week.
+9:00 AM · Jan 18, 2022·Twitter Web App
+
+### Day 65 | #100DaysOfCode
+
+Made a working backend with Node. It can getAllWeeks and getWeekNotes by id, which were tested with Postman. My teammates are doing the frontend.
+8:57 AM · Jan 19, 2022·Twitter Web App
+
+### Day 66 | #100DaysOfCode
+
+Successfully deploy backend to Heroku. Frontend can fetch data from the Heroku API. Later find out the bug in deploying frontend to Netlify so we can deploy it tmr in the team meeting.
+8:58 AM · Jan 20, 2022·Twitter Web App
+
+### Day 67 | #100DaysOfCode
+
+Deploy frontend to Netlify. Connect it with our API in Heroku, so now can submit form to the backend and display the updated data in frontend.
+8:57 AM · Jan 21, 2022·Twitter Web App
+
+### Day 68 | #100DaysOfCode
+
+Teammates fine tune the frontend by writing the CSS styling, and I add real data to the project. Have the presentation together after lunch. What an intense project week!
+9:49 PM · Jan 22, 2022·Twitter Web App
+
+### Day 69
+
+Take a break today, after the project week.
+10:59 PM · Jan 23, 2022·Twitter Web App
+
+### Day 70 | #100DaysOfCode
+
+Start to take App Development Certification in Shopify by studying development fundamentals course in Shopify Partner Academy.
+10:53 AM · Jan 24, 2022·Twitter Web App
+
+### Day 71 | #100DaysOfCode
+
+Learn what is Agile Retrospectives. Practice it with the teammates in project week with Metro Retro. Try to make documentation with w4 Hackathon.
+8:56 AM · Jan 25, 2022·Twitter Web App
+
+### Day 72 | #100DaysOfCode
+
+Learn to submit review/ add reviewers in GitHub. Practice frontend and backend deployment. Setup authentication with Auth0.
+9:00 AM · Jan 26, 2022·Twitter Web App
+
+### Day 73 | #100DaysOfCode
+
+Understand what delivery roles, i.e. project manager, are capable of. Introduced several leadership methods. Know what are scopes in authorisation.
+9:27 AM · Jan 27, 2022·Twitter Web App
+
+### Day 74 | #100DaysOfCode
+
+Learn to use ant design and storybook. Apply css module to avoid components with the same name. Listen to recruitment talk in School Of Code.
+9:00 AM · Jan 28, 2022·Twitter Web App
+
+### Day 75 | #100DaysOfCode
+
+Try to use Next.js to make a multiple pages website, where users can navigate between. Fetch data from animals api, and make it interactive and stateful by using useState with button.
+6:25 PM · Jan 29, 2022·Twitter Web App
+
+### Day 76 | #100DaysOfCode
+
+Have my first attempt in Shopify App Development Exam, and it is a bit far from the passing grade. Will come back after the 4 weeks project in bootcamp. From now on begin to learn and contribute more in frontend.
+3:06 PM · Jan 30, 2022·Twitter Web App
+
+### Day 77 | #100DaysOfCode
+
+Make a React webpage today. Break the code in the App component into separate components. Using CSS modules, ant design component library and Auth0 authentication. Netlify Link: https://unruffled-morse-992b80.netlify.app
+9:28 AM · Jan 31, 2022·Twitter Web App
+
+### Day 78 | #100DaysOfCode
+
+Have a try on Docker. Learn to use custom hooks in React, including useCounter, useFetch, usePersistentState.
+8:56 AM · Feb 1, 2022·Twitter Web App
+
+### Day 79 | #100DaysOfCode
+
+Learn how the scope (global scoped or function scoped) affects accessing data in the coding, and how the three keywords, let var and const, that are used for declaring variable perform differently.
+8:55 AM · Feb 2, 2022·Twitter Web App
+
+### Day 80 | #100DaysOfCode
+
+Listen to a talk about Couchbase held by its company team. Learn about the quirk parts of JS in truthy/falsy, such as why "0" == [] is false. They can be found in strings, typeof, numbers, Math, Infinity, NaN.
+9:05 AM · Feb 3, 2022·Twitter Web App
+
+### Day 81 | #100DaysOfCode
+
+Explore systems architecture by drawing Event-Based diagram for an E-commerce business. Learn to use debugging tools in VS Code.
+8:59 AM · Feb 4, 2022·Twitter Web App
+
+### Day 82 | #100DaysOfCode
+
+Our team deployed a Pokemon fight React App to Netlify, without the fight functioning but with Ant Design button, custom hook and Auth0 implanted.
+10:30 PM · Feb 5, 2022·Twitter Web App
+
+### Day 83 | #100DaysOfCode
+
+Split the single webpage from the Project Week into two pages using React Router. Add Dark/Light Theme switch to the webpage.
+10:17 PM · Feb 6, 2022·Twitter Web App
+
+### Day 84 | #100DaysOfCode
+
+Plan a time analysis system by drawing diagram using http://draw.io . It will integrate with Google Calendar and time record system, and compare the two data and display in charts or graphs in the frontend.
+11:12 AM · Feb 7, 2022·Twitter Web App
+
+### Day 85 | #100DaysOfCode
+
+Write a REST API using typescript that can perform CRUD operations.
+8:58 AM · Feb 8, 2022·Twitter Web App
+
+### Day 86 | #100DaysOfCode
+
+Learn typescript with examples. Our team convert a rock, paper, scissors game and to-do list app from JavaScript to TypeScript.
+8:57 AM · Feb 9, 2022·Twitter Web App
+
+### Day 87 | #100DaysOfCode
+
+Make a Tic-Tac-Toe Game with React, using useState and break it into components.
+9:04 AM · Feb 10, 2022·Twitter Web App
+
+### Day 88 | #100DaysOfCode
+
+Discover what Golang is, and make a presentation with slides and demo in its variables, functions, arrays and loops.
+2:57 PM · Feb 11, 2022·Twitter Web App
+
+### Day 89
+
+Take a break today (Social activities in School Of Code).
+7:24 PM · Feb 12, 2022·Twitter Web App
+
+### Day 90 | #100DaysOfCode
+
+Working on another portfolio website again. Following Kevin Powell 's CSS tutorial.
+10:24 PM · Feb 13, 2022·Twitter Web App
+
+### Day 91 | #100DaysOfCode
+
+Revisit the coding in project week, and prepare for the coming 4-weeks project.
+8:59 AM · Feb 14, 2022·Twitter Web App
+
+### Day 92 | #100DaysOfCode
+
+Start the 4-weeks project with other 4 teammates. Disney ideation for the topics, vote the best one, brainstorm more functions in the app, and begin to draw the low-fidelity wireframe.
+9:14 AM · Feb 15, 2022·Twitter Web App
+
+### Day 93 | #100DaysOfCode
+
+We did the user persona, user journey, app architecture, finding design ideas for the frontend, and low-fidelity landing page, login popup & main page.
+9:01 AM · Feb 16, 2022·Twitter Web App
+
+### Day 94 | #100DaysOfCode
+
+Our team splits into two groups. We did the lo-fi Event Page and Dash-broad Page, and finished hi-fi Landing Page and Login Popup. The other teammates decided the data architecture.
+9:00 AM · Feb 17, 2022·Twitter Web App
+
+### Day 95 | #100DaysOfCode
+
+Day 4 in Final Project.
+We almost finish hi-fi Main Page, Select Event Page and Dash-broad Page. We also decide to use MongoDB as database and http://Socket.IO as chat room function.
+9:05 AM · Feb 18, 2022·Twitter Web App
+
+### Day 96 | #100DaysOfCode
+
+Day 5 in Final Project.
+We the frontend team continue to finish the hi-fi main page, event page and dash-broad page. We have some time to make the component tree of the landing page, and we will build it in React on Monday.
+7:35 PM · Feb 19, 2022·Twitter Web App
+
+### Day 97 | #100DaysOfCode
+
+Watch tutorials online and find a way to make the landing page that we designed in hi-fi wireframe.
+10:00 PM · Feb 20, 2022·Twitter Web App
+
+### Day 98 | #100DaysOfCode
+
+Found tutorials online that can help with building our landing page on Monday. Make a small data list in array of object that can let us test displaying the travel photos and info.
+8:59 AM · Feb 21, 2022·Twitter Web App
+
+### Day 99 | #100DaysOfCode
+
+Day 6 in Final Project.
+All 6 team members go to frontend today and do the landing page. Use React Router to make four pages, and divide the landing page into Navbar, Hero, Slider, About Us, Footer components. Two members in a team to tackle one component
+9:00 AM · Feb 22, 2022·Twitter Web App
+
+### Day 100 | #100DaysOfCode
+
+Day 7 in Final Project.
+All 6 of us go to backend and write down tasks in the To Do list in Jira. In the afternoon section, we split into frontend and backend group and continue with the project. I switch from frontend to backend to make progress in team
+9:00 AM · Feb 23, 2022·Twitter Web App
+
+### Day 101 | #100DaysOfCode
+
+Day 8 in Final Project.
+Coding for the events data in routes, models, controller. Now can successfully get all events data, create a new event, and delete an event by id in MongoDB.
+9:00 AM · Feb 24, 2022·Twitter Web App
+
+### Day 102 | #100DaysOfCode
+
+Day 9 in Final Project.
+Continue with coding for the events data in routes, models, controller. Add more REST API to fit our project's need.
+9:01 AM · Feb 25, 2022·Twitter Web App
+
+### Day 103 | #100DaysOfCode
+
+Day 10 in Final Project.
+Build the login popup in frontend, and try to connect it with the backend. There should be some issues with sending the token in JWT in order to connect it correctly with the backend.
+5:03 PM · Feb 26, 2022·Twitter Web App
+
+### Day 104 | #100DaysOfCode
+
+The login is working now, can get the user_id and username, which are what I want on Friday. Need to find a way to pass the response data from landing page to other pages.
+10:18 PM · Feb 27, 2022·Twitter Web App
+
+### Day 105 | #100DaysOfCode
+
+Make a portfolio website for applying jobs from SOC. Not completed yet, but will finish it within 1 or 2 days.
+9:00 AM · Feb 28, 2022·Twitter Web App
+
+### Day 106 | #100DaysOfCode
+
+Day 11 in Final Project.
+Spend whole day to read and understand an article that tells using useContext and useReducer to pass data from one page to another pages.
+9:00 AM · Mar 1, 2022·Twitter Web App
+
+### Day 107 | #100DaysOfCode
+
+Day 12 in Final Project.
+Apply want I learned from the article about useContext and useReducer yesterday, and successfully make the login & log out work. User data such as id & token can be used across all the pages.
+8:57 AM · Mar 2, 2022·Twitter Web App
+
+### Day 108 | #100DaysOfCode
+
+Day 13 in Final Project.
+Combine Login & Register popup into the Navbar, and make the Navbar into component so that it can be reuse in other pages.
+8:59 AM · Mar 3, 2022·Twitter Web App
+
+### Day 109 | #100DaysOfCode
+
+Day 14 in Final Project.
+Figure out how to use createEvent and updateUserProfile API, will connect the first one with the Form in frontend and connect slider in landing page to backend tmr.
+9:02 AM · Mar 4, 2022·Twitter Web App
+
+### Day 110 | #100DaysOfCode
+
+Day 15 in Final Project.
+Make presentation slides with teammates, which can be used again in the project recording or demo day.
+11:00 PM · Mar 5, 2022·Twitter Web App
+
+### Day 111
+
+Take a break today.
+6:49 PM · Mar 6, 2022·Twitter Web App
+
+### Day 112 | #100DaysOfCode
+
+Write CV, bio and film short intros, then upload to School Of Code job applying platform.
+9:06 AM · Mar 7, 2022·Twitter Web App
+
+### Day 113 | #100DaysOfCode
+
+Day 16 in Final Project.
+Connect the create event form with backend. It needs to have authorisation with bearer token in header and needs to allow Access-Control-Allow-Origin.
+9:02 AM · Mar 8, 2022·Twitter Web App
+
+### Day 114 | #100DaysOfCode
+
+Day 17 in Final Project.
+Connect the dashboard with the backend API, so it can now show the joined events of a user and the events that a user are hosting. Rewrite the event data in database as required by teammate.
+8:59 AM · Mar 9, 2022·Twitter Web App
+
+### Day 115 | #100DaysOfCode
+
+Day 18 in Final Project.
+Connect more backend API with the frontend, now can edit event and delete event in the dashboard.
+8:55 AM · Mar 10, 2022·Twitter Web App
