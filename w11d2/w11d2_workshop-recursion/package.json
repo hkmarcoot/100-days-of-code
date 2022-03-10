@@ -1,0 +1,30 @@
+{
+  "name": "workshops_recursion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test1": "npm test -- Task1*/",
+    "test2": "npm test -- Task2*/",
+    "test3": "npm test -- Task3*/",
+    "test4": "npm test -- Task4*/",
+    "test5": "npm test -- Task5*/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/workshops_recursion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/workshops_recursion/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/workshops_recursion#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.4.7"
+  }
+}
