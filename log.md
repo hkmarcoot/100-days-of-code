@@ -636,3 +636,25 @@ Connect the dashboard with the backend API, so it can now show the joined events
 Day 18 in Final Project.
 Connect more backend API with the frontend, now can edit event and delete event in the dashboard.
 8:55 AM · Mar 10, 2022·Twitter Web App
+
+### Day 116 | #100DaysOfCode
+
+Day 19 in Final Project.
+Help with create events and try to fix error for teammate, but it is not easy to find a quick fix. Add Navbar to event page and hide the join event button if user is not logging in.
+9:00 AM · Mar 11, 2022·Twitter Web App
+
+### Day 117 | #100DaysOfCode
+
+Day 20 in Final Project.
+Our team update presentation slides today, and we all bootcamper have a party at 3:30pm because it is the official last day of SOC bootcamp.
+
+Time flies and the bootcamp has just ended (11/03/2022), and 16 weeks training is completed.
+I really thanks to Chris Meah and his team, without this rare chance I should be now still working hard by my own self in the tutorial hell of YouTube's coding channel. This bootcamp brings me opportunities to work with different kinds of people in U.K. and has hands-on pair programming experience, not to mention the clear explanation of web development technologies concept by every coach.
+As we all know, this bootcamp is not just a regular coding course, once you are a bootcamper you are always a part of The School Of Code family, which means you are still in connection with all the coaches and bootcampers. In addition, SOC partnership companies will provide job opportunities for us, and every bootcamper is capable of applying as many jobs as they wish. These two reasons provide us an extremely safe environment to switch our career and get into tech, and put 100% effort in our learning.
+Special thanks to my mentor Aidan Walker, he chatted with me every week to talk about my progress and shared his valuable real-world job experience. We become friends and will meet and have a drink together after the Demo Day.
+And Kentleigh English, Hamza Ibrahim, David Adams, Jordan Linton, Liz Kaufman, Arshi Sheikh, Jasien Elimy, Chris Miller, Helena Archer, you are all my amazing coaches. Thank you all of you and I still want to learn from you all after the bootcamp!
+Of course I still remember my project week teammates and final project teammates, I will visit you when I have chance to go to London.
+Finally, about the #100DaysOfCode challenge, it is 117 days starting from the first day of SOC bootcamp. As a result, I have finished the challenge as it keeps step with the bootcamp. I can feel the benefit of the challenge since this keeps pushing me to work on programming every day. I will take a small break, and start a second one. This time will be more personal because I am not in SOC training anymore, so I will try to build small project and put my progress in this new challenge.
+Ok, it is time to say goodbye to Chris, thanks again for giving us this opportunity. I will be the one to sign off the day. Hands up, hands down, to the side, diagonal, the other diagonal, to the face!
+#SchoolofCode #100daysofcode
+12:03 AM · Mar 13, 2022·Twitter Web App
