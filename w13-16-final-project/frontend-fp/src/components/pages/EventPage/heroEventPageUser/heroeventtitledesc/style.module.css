@@ -1,0 +1,11 @@
+.heroeventtitledesc{
+    display: inline-block;
+    width:200px;
+    text-align: center;
+    border-bottom: 3px solid #A30B3D;
+    height: 48px;
+}
+.fontStyle{
+    font-size:32px;
+    color:#462626;
+}

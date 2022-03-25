@@ -1,0 +1,34 @@
+.dashbroadEventSectionContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #7201a5;
+  border-radius: 25px;
+}
+.dashbroadEventSection {
+  background-color: white;
+  width: 596px;
+  height: 232px;
+  margin: 2rem;
+  border: 3px solid #7201a5;
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.eventdashbroadUserSection {
+  background-color: white;
+  width: 596px;
+  height: 700px;
+  margin: 2rem;
+  border: 3px solid #7201a5;
+  padding-right: 2px;
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}

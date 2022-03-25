@@ -1,0 +1,28 @@
+.FilterBarContainer {
+    background-color: #F9F2F2;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.FilterBarHeadingsContainer {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* width:90%; */
+    height:78px;
+    font-size: 25px;
+    color: #7201A5; 
+    background-color: white; 
+    border-radius: 25px 25px 0px 0px;
+}
+.FilterBarHeadings{
+    /* background-color: white; */
+    color:#7201A5;
+    margin:3rem;
+    cursor:pointer;
+}
+

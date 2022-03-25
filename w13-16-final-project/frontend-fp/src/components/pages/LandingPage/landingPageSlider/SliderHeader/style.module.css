@@ -1,0 +1,13 @@
+.headerSlider{
+    color:#462626;
+    font-size: 36px;
+    display:inline-block;
+    width:800px;
+    text-align: center;
+    border-bottom: 4px solid #A30B3D;
+    margin-top: 3rem;
+}
+
+.header_UsSlider{
+    color: #7201A5;
+}

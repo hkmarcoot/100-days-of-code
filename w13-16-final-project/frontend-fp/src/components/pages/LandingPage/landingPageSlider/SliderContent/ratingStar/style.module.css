@@ -1,0 +1,17 @@
+.StarRatingContainer{
+    pointer-events: none;
+    /* background-color: red; */
+    margin-top:0;
+    padding:0;
+}
+.StarsItself{
+     font-size:14px;
+     /* height: 20px; */
+    /* background-color: tomato; */
+    top:-23px;
+}
+.StarsItself span svg{
+    width: 30px;
+    height:20px;
+    font-size:20px;
+}

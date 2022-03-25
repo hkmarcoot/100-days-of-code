@@ -1,0 +1,30 @@
+.attendingEventCounter{
+    margin:1rem;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:212px;
+    height: 36px;
+    border-radius: 25px 0px 0px 25px;
+     border: 1px solid #7201A5;
+     overflow: hidden;
+}
+
+.attendingTitle{
+    background-color: #7201A5;
+    margin-bottom:0px;
+    /* margin-left:1rem; */
+    width:135px;
+    font-size:24px;
+    text-align: center;
+    color:white;  
+}
+
+.attendingNumber{
+    background-color: transparent;
+    margin-bottom:0px;
+    /* border: 1px solid #7201A5; */
+    font-size:24px;
+    width:77px;
+    text-align: center;
+}

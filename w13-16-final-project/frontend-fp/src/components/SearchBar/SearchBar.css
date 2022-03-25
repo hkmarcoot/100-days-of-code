@@ -1,0 +1,36 @@
+.SearchContainer {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  }
+  .SearchBarTitle {
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    text-align: center;
+    text-indent: 200px;
+    margin-right: 10px;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #462626;
+   
+    
+  }
+  
+  .SearchBarBox {
+      width: 700px; 
+      height: 43px;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+      /* margin-right: 800px; 
+      margin-left: 5px;  */
+      border-radius: 25px 25px 25px 25px;
+      border: 3px solid #7201A5;
+      overflow: hidden;
+     margin: -3px;
+  
+  }
+

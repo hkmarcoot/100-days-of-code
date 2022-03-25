@@ -1,0 +1,18 @@
+.attendingEventJoin{
+    width:215px;
+    height: 40px;
+    background-color: white;
+    color:#7201A5;
+    border: 2px solid #7201A5;
+    border-radius:50px;
+    font-size:24px;
+    margin-right:0.6rem;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+
+.attendingEventJoin:hover{
+    background-color: #7201A5;
+    color:white;
+    transition: all 0.3s;
+}

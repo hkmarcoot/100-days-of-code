@@ -1,0 +1,18 @@
+.backgroundAboutUsContainer{
+    background: #F9F2F2;
+}
+.aboutUsHeader{
+    text-align: center;
+}
+.aboutUsContainer{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutUsMainContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:1200px;
+}

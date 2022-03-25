@@ -1,0 +1,10 @@
+.header{
+    text-align: center;
+}
+
+.heroEventDescriptionHeader{
+    font-size: 42px;
+    color:#7201A5;
+    text-transform: capitalize;
+    font-weight: bold;
+}

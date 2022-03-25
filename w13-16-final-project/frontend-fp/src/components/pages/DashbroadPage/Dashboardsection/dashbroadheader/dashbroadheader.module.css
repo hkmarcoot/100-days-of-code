@@ -1,0 +1,11 @@
+.headerContainer {
+  background-color: white;
+  width: 260px;
+  height: 50px;
+  text-align: center;
+  border-bottom: 5px solid #a30b3d;
+}
+
+.headerContainer h2 {
+  margin-top: 10px;
+}

@@ -1,0 +1,23 @@
+.attendingSectionContainer{
+    background-color: #F9F2F2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.attendingSectionMainContainer{
+    background-color: white;
+    width:996px;
+    border-radius:50px;
+    margin:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border:2px solid #7201A5;
+}
+.attendingGoingSection{
+    /* background-color: paleturquoise; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0.5rem;
+}

@@ -1,0 +1,47 @@
+
+.outer-container {
+  background-color: #f2e9f7;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+    
+.main-container {
+    width: 100%;
+    margin: auto;
+    border: 1px solid #7201A5;
+   
+}
+
+
+
+.create-experience-button {
+    width: 25vw;
+    height: 5vh;    
+    background-color: #7201A5;
+    color: white;
+    font-size: 1.5em;
+}
+
+.create-experience-button:hover {
+
+    background-color: #8605c2;
+}
+
+
+.locaton-date-flex {
+    display: flex;
+}
+
+.form-image-file {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}

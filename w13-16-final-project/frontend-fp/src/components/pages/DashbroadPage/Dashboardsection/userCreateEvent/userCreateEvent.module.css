@@ -1,0 +1,159 @@
+.UserContainerEvent {
+  /* background-color: turquoise; */
+  /* height:230px; */
+  width: 590px;
+
+  /* border-radius:25px; */
+  /* padding:1rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userCreateContainer {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tileMain {
+  /* background-color: red; */
+  max-height: 180px;
+  height: 180px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-top: 1rem;
+}
+.tileMain::-webkit-scrollbar {
+  display: none;
+}
+.tileContainer {
+  background-color: rgba(114, 1, 165, 0.3);
+  /* opacity:30%; */
+  border-radius: 50px;
+  margin: 0.2rem;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 550px;
+  max-width: 550px;
+  margin-top: 0.5rem;
+}
+.tileContainerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tileTitleNDate {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 0px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 200px;
+  max-width: 200px;
+  max-height: 30px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.tileTitleNDate::-webkit-scrollbar {
+  display: none;
+}
+.tileNumberGoing {
+  width: 30px;
+  margin: 0px;
+}
+.buttonContainer {
+  margin-right: 5px;
+}
+.buttonStyle {
+  background-color: transparent;
+  width: auto;
+  margin-left: 10px;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+}
+.editBtn path:hover {
+  color: greenyellow;
+}
+
+.deleteBtn path:hover {
+  color: red;
+}
+
+.formContainer {
+  height: 230px;
+  width: 100%;
+  margin-top: 1rem;
+  /* background-color: pink; */
+}
+
+.formStyle {
+  /* background-color:yellow; */
+  height: 230px;
+  max-height: 230px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formStyleDateNLocation {
+  display: flex;
+  justify-content: space-between;
+}
+.formStyleDateNLocation input {
+  width: 250px;
+}
+
+.formStyle input {
+  background-color: rgba(114, 1, 165, 0.3);
+  color: black;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  padding-left: 10px;
+  max-width: 600px;
+}
+
+.formStylePriceNSubmit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .formStylePriceNSubmit input{
+    width:150px;
+} */
+.formStylePriceNSubmit input[type="submit"] {
+  width: 200px;
+  background-color: white;
+  border: 2px solid #7201a5;
+  font-size: 16px;
+  color: #7201a5;
+  transition: all 0.3s;
+}
+.formStylePriceNSubmit input[type="submit"]:hover {
+  background-color: #7201a5;
+  color: white;
+  transition: all 0.3s;
+}
+.formStylePriceNSubmit input[type="button"] {
+  width: 100px;
+  background-color: white;
+  border: 2px solid #7201a5;
+  font-size: 16px;
+  color: #7201a5;
+  transition: all 0.3s;
+  border-radius: 25px;
+  height: 40px;
+  font-weight: bold;
+}
+.formStylePriceNSubmit input[type="button"]:hover {
+  background-color: #7201a5;
+  font-size: 16px;
+  color: white;
+  transition: all 0.3s;
+}

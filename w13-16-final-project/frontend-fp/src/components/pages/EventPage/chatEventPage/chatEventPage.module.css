@@ -1,0 +1,17 @@
+.chatEventPage{
+    background-color: #F9F2F2;
+    height:600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.chatEventPageMain{
+    background-color: white;
+    height: 535px;
+    width:997px;
+    border-radius: 25px;
+    border:4px solid #7201A5;
+    padding:10px;
+    display:flex;
+    align-items: center;
+}

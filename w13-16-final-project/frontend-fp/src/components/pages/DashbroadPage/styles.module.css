@@ -1,0 +1,16 @@
+.Container{
+    background-color: #F9F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.mainContainer{
+    /* background-color:red; */
+    width:1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

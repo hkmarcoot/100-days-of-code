@@ -1,0 +1,45 @@
+.SearchContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+/* margin-bottom: 40px; */
+background-color: #F9F2F2;
+padding-bottom: 1rem;
+padding-top:1rem;
+}
+
+
+.SearchBarTitle {
+  margin-right: 10px;
+  white-space: nowrap; 
+}
+
+.SearchBarTitle h4{
+  font-weight: 500;
+  color: #462626;
+}
+
+.SearchBarBoxContainer{
+  background-color: transparent;
+}
+.SearchBarBox {
+    border-radius: 25px 25px 25px 25px;
+    border: 3px solid #7201A5;
+    background-color: white;
+    width:466px;
+    height:40px;
+    padding:10px;
+}
+
+.submitButton {
+  border: none;
+  border-radius: 5px;
+  padding: 9px;
+  margin-left: 10px;
+  color: var(--purple);
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  box-shadow: 0px 0px 2px 1px var(--boxShadow);
+  width: 100px;
+}

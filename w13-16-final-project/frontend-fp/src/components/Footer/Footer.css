@@ -1,0 +1,79 @@
+.FooterContainer {
+  background-color: plum;
+  /* height: 350px; */
+  width: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.FooterLeft {
+display: flex;
+justify-content: center;
+background-color: plum;
+align-items: center;
+width: 600px;
+}
+
+
+.FooterLogo {
+   
+    justify-content: right;
+    background-color: plum;
+    margin-left: 5%;
+    padding: 15px;
+  
+
+}
+
+.FooterPoweredByText {
+    text-indent: 55px;
+    font-size: 25px;
+    font-family: roboto;
+    color: black;
+    justify-content: right;
+    background-color: plum;
+    margin-left: 10%;
+   padding: 15px;
+}
+
+
+.FooterConnectText {
+    background-color: plum;
+    color: black;
+    font-family: roboto;
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+    margin-right: 5%;
+    padding: 10px;
+    flex-direction: row;
+    border: none;
+}
+
+.FooterRight {
+  display: flex;
+justify-content: center;
+flex-direction: row;
+background-color: plum;
+align-items: center;
+width: 600px;
+
+}
+
+.FooterMediaIcon {
+   background-color: plum;
+  height: 70px;
+  width: 300px; 
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  
+
+}

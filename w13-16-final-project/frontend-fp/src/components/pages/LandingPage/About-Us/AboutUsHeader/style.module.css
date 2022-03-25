@@ -1,0 +1,12 @@
+.header{
+    color:#462626;
+    font-size: 36px;
+    display:inline-block;
+    width:250px;
+    text-align: center;
+    border-bottom: 4px solid #A30B3D;
+}
+
+.header_Us{
+    color: #7201A5;
+}

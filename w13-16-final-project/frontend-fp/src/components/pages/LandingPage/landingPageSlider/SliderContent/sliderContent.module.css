@@ -1,0 +1,139 @@
+.linkstyle{
+    text-decoration: none;
+    color:none;
+    margin:3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.slideContainer{
+    background-color:#F9F2F2;
+    /* height:600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1rem;
+}
+
+.slideMain{
+    max-width:1200px;
+    display:flex;
+}
+
+/* .slideMain button{
+    background: whitesmoke;
+    width:40px;
+    display:flex;
+} */
+ .slideMain button:before{
+   color: purple;
+    font-size:40px; 
+    /* width:266px; */
+}
+.slideMain button{
+    width:50px;
+}
+
+/* .slick-prev{
+    left: -50px;
+} */
+.slideMain > *{
+    font-size:30px;
+}
+
+
+
+.tilecontainer{
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tile{
+    background-color: white;
+    width:292px;
+    height: 464px;
+    border-radius:25px;
+    /* margin-left:1rem; */
+    overflow: hidden;
+    cursor: pointer;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+}
+.imgContainer{
+    background-color: rosybrown;
+    height:265px;
+    width: 300px;
+    object-fit: cover;
+}
+.title{
+    color:#7201A5;
+    font-size:24px;
+    font-weight: bold;
+    margin:5px;
+    overflow:scroll;
+     -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    max-width:300px;
+    height:40px;
+}
+.title::-webkit-scrollbar {
+  display: none; 
+}
+.countryTitle{
+    font-size:18px;
+    font-weight: bold;
+    margin:5px;
+    color:black;
+}
+.ratingNDateContainer{
+    margin:5px;
+    display:flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* background-color: thistle; */
+    height:30px;
+}
+.tileDate{
+    font-size:14px;
+    font-weight: bold;
+    color:black;
+    overflow:scroll;
+     -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    max-width:100px;
+    height:20px;
+}
+.tileDate::-webkit-scrollbar {
+  display: none; 
+}
+.paragraphContainer{
+    font-size: 13px;
+    margin:5px;
+    margin-top:0.7rem;
+    line-height:19.5px;
+    color:black;
+    font-weight: bold;
+    /* width:200px; */
+    height: 200px;
+    margin-left:0.7rem;
+     overflow:scroll;
+     -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    max-width:300px;
+    height:60px;
+}
+.paragraphContainer::-webkit-scrollbar {
+  display: none; 
+}
+.paragraphDesc{
+ white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}

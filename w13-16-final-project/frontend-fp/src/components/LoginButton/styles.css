@@ -1,0 +1,7 @@
+.login-button {
+  color: var(--textColor);
+}
+
+.login-button:hover {
+  color: var(--purple);
+}

@@ -1,0 +1,39 @@
+.profileContainer{
+    background-color: white;
+    height: 617px;
+    width:280px;
+    border-radius:25px;
+    border:3px solid #7201A5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileImg{
+    width:223px;
+    height:223px;
+    margin:1rem;
+    object-fit: cover;
+}
+
+.inputStyle{
+    width:221px;
+    max-width:221px;
+    overflow:scroll;
+    height:40px;
+    max-height:40px;
+    background-color: rgba(114, 1, 165,0.3);
+    border-radius:50px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-bottom:10px;
+}
+
+.inputStyle::-webkit-scrollbar {
+  display: none;
+}
+
+.inputStyle p{
+    margin:5px;
+    font-size:21px;
+}

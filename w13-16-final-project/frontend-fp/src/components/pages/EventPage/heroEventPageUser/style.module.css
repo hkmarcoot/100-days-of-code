@@ -1,0 +1,23 @@
+.heroContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F2F2;
+    /* margin-top: 1rem; */
+    /* margin-bottom:2rem; */
+    padding:1rem;
+}
+
+.heroMainContainer{
+    width:996px;
+    height:546px;
+    background-color: white;
+    border-radius:25px;
+    overflow: hidden;
+}
+
+.heroEventDescriptionSection{
+    background-color: white;
+    padding-left:1rem;
+    padding-right:1rem;
+}

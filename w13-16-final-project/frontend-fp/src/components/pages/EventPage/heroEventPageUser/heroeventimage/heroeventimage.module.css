@@ -1,0 +1,11 @@
+.heroEventImage{
+    height:298px;
+    width:996px;
+    background-color: yellow;
+}
+.img{
+    height:298px;
+    width:996px;
+    object-fit: cover;
+    background-color: pink;
+}

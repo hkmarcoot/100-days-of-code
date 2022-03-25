@@ -1,0 +1,162 @@
+* {box-sizing: border-box;}
+
+
+.open-button {
+  background-color: #fff;
+  font-size: 1.2rem;
+  color: black;
+  padding: 16px 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 250px;
+}
+
+.nameInput {
+  background: #F9F2F2;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  resize: none;
+}
+
+.nameInput:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #F9F2F2;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #F9F2F2;
+  resize: none;
+  min-height: 200px;
+}
+
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: lightpink;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: #DDA0DD;
+}
+
+
+.form-container .btn:hover, .open-button:hover, .openChatSection-button:hover {
+  opacity: 1;
+}
+
+
+.cancelButton {
+  background-color: #DDA0DD;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.cancelButton:hover {
+  opacity: 1;
+}
+
+.chatSection {
+  background-color: #FFF;
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 325px;
+  border: 3px solid #F9F2F2;
+  z-index: 9;
+  padding: 20px 20px 10px 20px;
+  width: 400px;
+  height: 501px;
+}
+
+.chatTitle {
+  border-bottom: 1px solid black;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.openChatSection-button {
+  background-color: #fff;
+  font-size: 1.2rem;
+  color: black;
+  padding: 16px 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 330px;
+  width: 250px;
+}
+
+.chatUserName, .chatMessage {
+  color: black;
+  font-weight: 700px;
+}
+
+.chatMessageWrapper {
+  background-color: #F9F2F2;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.chatWrapper {
+  background-color: #F9F2F2;
+  height: 310px;
+  margin-bottom: 20px;
+  max-width: 75ch;
+  overflow-y: scroll;
+  overflow-wrap: break-word;
+}
+
+.disabledArea {
+  font-weight: regular;
+  color: #757575;
+}
+

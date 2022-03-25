@@ -1,0 +1,147 @@
+.FooterContainer {
+  background-color: plum;
+  width: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.FooterLogo {
+  justify-content: right;
+  margin-left: 5%;
+  padding: 15px;
+}
+
+.socLogo {
+  width: 200px;
+  height: 200px;
+}
+
+.FooterPoweredByText {
+  display: flex;
+  text-indent: 55px;
+  font-size: 25px;
+  font-family: roboto;
+  color: black;
+  margin-left: 10%;
+  padding: 15px;
+}
+
+.blockSpan {
+  display: block;
+  text-align: right;
+}
+
+.FooterConnectText {
+  color: black;
+  font-family: roboto;
+  display: flex;
+  justify-content: right;
+  font-size: 30px;
+  margin-right: 5%;
+  padding: 0;
+  flex-direction: row;
+  border: none;
+  align-items: flex-end;
+}
+
+.connectWithUs {
+  margin: 0;
+}
+
+.FooterRight {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
+}
+
+.FooterMediaIcon {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.socialLogo {
+  padding: 5px;
+}
+
+
+/* MEDIA QUERIES */
+@media (min-width: 0) and (max-width: 892px) {
+
+  .FooterContainer,
+  .FooterLeft,
+  .footerRight {
+    flex-direction: column;
+  }
+
+  .FooterContainer {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .FooterPoweredByText {
+    text-indent: unset;
+    font-size: unset;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .blockSpan {
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FooterLeft {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .FooterRight {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .FooterConnectText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    padding: 0;
+    border: none;
+    align-items: center;
+  }
+
+  .FooterMediaIcon {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .FooterLogo {
+    justify-content: center;
+    margin-left: 0;
+  }
+}

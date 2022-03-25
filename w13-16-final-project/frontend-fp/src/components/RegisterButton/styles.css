@@ -1,0 +1,7 @@
+.register-button {
+  color: var(--textColor);
+}
+
+.register-button:hover {
+  color: var(--purple);
+}
