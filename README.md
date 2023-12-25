@@ -1,5 +1,9 @@
 # I've joined the #100DaysOfCode Challenge
 
+## Notes
+
+This repo contains the working material in School Of Code from week 1 to 16.
+
 ## Contents
 
 - [Rules](rules.md)
