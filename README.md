@@ -2,7 +2,7 @@
 
 ## Notes
 
-This repo contains the working material in School Of Code from week 1 to 16.
+This repo contains the working material in School Of Code from weeks 1 to 16.
 
 ## Contents
 
